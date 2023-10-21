@@ -1,0 +1,15 @@
+{
+  "pviatest": "test",
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.2",
+    "@types/mocha": "^10.0.3",
+    "@types/node": "^20.8.7",
+    "fast-check": "^3.13.1",
+    "mocha": "^10.2.0",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "test": "mocha --require tsx ./index.test.ts"
+  }
+}
